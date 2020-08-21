@@ -4,8 +4,8 @@ pt.speak("Use the following key words to start the application")
 print("Keywords : run,  open,  play,  execute,  browse,  start")
 print("For example: start chrome")
 while True:
-    pt.speak("Enter the application you would like to work with?")
-    app = input("Enter the application you would like to work with? ")
+    pt.speak("Enter the application name you would like to work with?")
+    app = input("Enter the application name you would like to work with? ")
     inp = app.lower()
     if ("run" in inp) or ("open" in inp) or ("play" in inp) or ("execute" in inp) or ("browse" in inp) or ("start" in inp):      
         if ("chrome" in inp):
