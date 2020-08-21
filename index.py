@@ -1,6 +1,6 @@
 import os
 import pyttsx3 as pt
-pt.speak("Use the following key words to start the application")
+pt.speak("Use the following key words to start an application")
 print("Keywords : run,  open,  play,  execute,  browse,  start")
 print("For example: start chrome")
 while True:
