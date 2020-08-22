@@ -1,5 +1,5 @@
 import os
-import pyttsx3 as pt
+import pyttsx3 as pt  #pyttsx3 module is used to convert text-to-speech
 pt.speak("Use the following key words to start the application")
 print("Keywords : run,  open,  play,  execute,  browse,  start")
 print("For example: start chrome")
