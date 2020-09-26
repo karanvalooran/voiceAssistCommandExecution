@@ -21,7 +21,7 @@ while True:
             pt.speak("opening Windows Media Player")
             os.system("wmplayer")
         elif "vlc" in inp:
-            pt.speak("opening V L C Media Player")
+            pt.speak("opening VLC Media Player")
             os.system("vlc")      
     else:
         pt.speak("Invalid input")
